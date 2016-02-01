@@ -13,7 +13,6 @@
 #define assignbit(reg,value,index)  reg=((reg&=~(1<<index))|(value<<index))
 #define getbit(reg,n) ((reg>>n)&1)
 
-#define DIO_u8PORTA ((volatile u8*)(0x20))   //on usage dont'forget * //creates temporary variable
 #define DIO_u8PORTA ((volatile u8*)(0x3B))
 #define DIO_u8DDRA ((volatile u8*)(0x3A))
 #define DIO_u8PINA ((volatile u8*)(0x39))
