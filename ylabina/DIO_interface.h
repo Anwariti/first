@@ -70,11 +70,7 @@
 #define DIO_u8INPUT 0
 #define DIO_u8OUTPUT 1
 
-#define DIO_u8ERROR 0    // in types.h to be seen through all components as type
-#define DIO_u8OK 1       //without DIO only U8
 
-
-#define PIN_PER_PORT 8    //must be in private ...not changed by user...nor used by user
 
 
 /****************************************************************************/

@@ -8,20 +8,30 @@
 #ifndef DIO_PRIVATE_H_
 #define DIO_PRIVATE_H_
 
+
+
+
+#define PIN_PER_PORT 8    //must be in private ...not changed by user...nor used by user
+#define NO_PINS 31 //check bigger than e
+#define NO_PORTS 3
+
 #define CONC(A7,A6,A5,A4,A3,A2,A1,A0)           conc_helper(A7,A6,A5,A4,A3,A2,A1,A0)
 #define conc_helper(x7,x6,x5,x4,x3,x2,x1,x0)     0b##x7##x6##x5##x4##x3##x2##x1##x0
-#define assignbit(reg,value,index)  reg=((reg&=~(1<<index))|(value<<index))
-#define getbit(reg,n) ((reg>>n)&1)
+#define ASSIGNBIT(reg,value,index)  reg=((reg&=~(1<<index))|(value<<index))
+#define GETBIT(reg,n) ((reg>>n)&1)
 
 #define DIO_u8PORTA ((volatile u8*)(0x3B))
 #define DIO_u8DDRA ((volatile u8*)(0x3A))
 #define DIO_u8PINA ((volatile u8*)(0x39))
+
 #define DIO_u8PORTB ((volatile u8*)(0x38))
 #define DIO_u8DDRB ((volatile u8*)(0x37))
 #define DIO_u8PINB ((volatile u8*)(0x36))
+
 #define DIO_u8PORTC ((volatile u8*)(0x35))
 #define DIO_u8DDRC ((volatile u8*)(0x34))
 #define DIO_u8PINC ((volatile u8*)(0x33))
+
 #define DIO_u8PORTD ((volatile u8*)(0x32))
 #define DIO_u8DDRD ((volatile u8*)(0x31))
 #define DIO_u8PIND ((volatile u8*)(0x30))
