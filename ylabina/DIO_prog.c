@@ -13,9 +13,9 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
  u8*  DIO_u8PORTArr[] =
 		{ DIO_u8PORTA, DIO_u8PORTB, DIO_u8PORTC, DIO_u8PORTD };
- u8*   DIO_u8PINArr[] = { DIO_u8PINA, DIO_u8PINB, DIO_u8PINC, DIO_u8PIND };
+ u8*  DIO_u8PINArr[] = { DIO_u8PINA, DIO_u8PINB, DIO_u8PINC, DIO_u8PIND };
 
- u8*   DIO_u8DDRArr[] = { DIO_u8DDRA, DIO_u8DDRB, DIO_u8DDRC, DIO_u8DDRD };
+ u8*  DIO_u8DDRArr[] = { DIO_u8DDRA, DIO_u8DDRB, DIO_u8DDRC, DIO_u8DDRD };
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 /*comment!:read port value*/

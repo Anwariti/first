@@ -8,6 +8,7 @@
 #ifndef DELAY_CONFIG_H_
 #define DELAY_CONFIG_H_
 
-#define DELAY_u32SYSCLOCK
+#define DELAY_u32SYSCLOCK 16000000
+
 
 #endif /* DELAY_CONFIG_H_ */

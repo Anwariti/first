@@ -8,6 +8,7 @@
 #ifndef DIO_INTERFACE_H_
 #define DIO_INTERFACE_H_
 
+#include "types.h"
 /****************************************************************************/
 /***************************public Definitions*******************************/
 /****************************************************************************/
@@ -70,7 +71,9 @@
 #define DIO_u8INPUT 0
 #define DIO_u8OUTPUT 1
 
-
+/*comment!:PORT I/O Direction*/
+#define DIO_u8PORTINPUT   0x00
+#define DIO_u8PORTOUTPUT 0x00
 
 
 /****************************************************************************/
