@@ -73,7 +73,7 @@
 
 /*comment!:PORT I/O Direction*/
 #define DIO_u8PORTINPUT   0x00
-#define DIO_u8PORTOUTPUT 0x00
+#define DIO_u8PORTOUTPUT 0xFF
 
 
 /****************************************************************************/

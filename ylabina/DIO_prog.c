@@ -86,7 +86,6 @@ extern u8 DIO_u8ReadPinVal(u8 Copy_u8PinIdx, u8* Copy_u8PtrVal) {
 	if(Copy_u8PinIdx >NO_PINS)
 	{
 		local_u8Error = DIO_u8ERROR;
-		local_u8Error = DIO_u8ERROR;
 	}
 	else
 	{
